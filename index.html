@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Transporte escolar</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" href="./php/ejemplo.php">
+</head>
+
+<body>
+	<header>
+		<h1>Transporte escolar</h1>
+		<nav>
+			<ul>
+				<li><a href="#inicio">Inicio</a></li>
+				<li><a href="#servicios">Servicios</a></li>
+				<li><a href="#nosotros">Sobre nosotros</a></li>
+				<li><a href="#contacto">Contacto</a></li>
+				<li><a href="#zonas">zonas</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="inicio">
+			<h2>Bienvenidos al transporte escolar</h2>
+			<img src="transporte-escolar.jpg" alt="Transporte escolar">
+			<p>Ofrecemos transporte escolar de calidad para niños y adolescentes. Contamos con una flota de vehículos
+				modernos y conductores capacitados para garantizar la seguridad y comodidad de los estudiantes.</p>
+			<button><a href="#servicios">Ver servicios</a></button>
+		</section>
+		<section id="servicios">
+			<h2>Servicios</h2>
+			<ul>
+				<li>Transporte escolar de ida y vuelta</li>
+				<li>Transporte para eventos escolares y deportivos</li>
+				<li>Transporte para excursiones y viajes escolares</li>
+				<li>Transporte para estudiantes con necesidades especiales</li>
+			</ul>
+			<p>Ofrecemos una amplia gama de servicios de transporte escolar para satisfacer las necesidades de cada
+				estudiante y escuela. Contáctanos para obtener más información sobre nuestros servicios y tarifas.</p>
+			<button><a href="#contacto">Contacto</a></button>
+		</section>
+		<section id="nosotros">
+			<h2>Sobre nosotros</h2>
+			<p>Somos una empresa familiar con más de 10 años de experiencia en el transporte escolar. Nos enorgullece
+				ofrecer un servicio confiable, seguro y cómodo para nuestros clientes.</p>
+			<p>Nuestro equipo está compuesto por conductores profesionales y capacitados, y nuestro objetivo es brindar
+				la mejor experiencia posible de transporte escolar para los estudiantes y sus familias.</p>
+		</section>
+		<section id="contacto">
+			<h2>Contacto</h2>
+			<form method="post" action="procesar_formulario.php">
+				<label for="nombre">Nombre:</label>
+				<input type="text" name="nombre" id="nombre">
+
+				<label for="correo">Correo electrónico:</label>
+				<input type="email" name="correo" id="correo">
+
+				<label for="mensaje">Mensaje:</label>
+				<textarea name="mensaje" id="mensaje"></textarea>
+
+				<input type="submit" value="Enviar">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>Derechos reservados &copy; 2023 Transporte escolar</p>
+	</footer>
+</body>
+
+</html>
